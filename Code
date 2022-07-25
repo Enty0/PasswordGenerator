@@ -1,0 +1,15 @@
+import random
+
+choice = "qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHAGSFDZMXNCBV1234567890!#$%&'()*+,-./:;<=>?@[\]^_`{|}~ " 
+
+a = int(input('Введите количество символов: '))
+
+
+pas = ''
+
+
+for i in range(a):
+    pas = pas + random.choice(choice)
+
+
+print(pas)
